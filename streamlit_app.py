@@ -3,9 +3,9 @@ from openai import OpenAI
 
 # Show title and description.
 st.title("Inteligencia Artificial con IDESIE Bussiness School")
-st.write(
-    "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. " )
-    ("Te enseñamos como funciona AGREGAR PARENTESIS Y ENTRE ELLOS COLOCAR LINK DEL TUTORIAL."
+st.write (
+    "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. " 
+     "Te enseñamos como funciona AGREGAR PARENTESIS Y ENTRE ELLOS COLOCAR LINK DEL TUTORIAL. "
 )
 
 st.button ('Empieza aquí')
