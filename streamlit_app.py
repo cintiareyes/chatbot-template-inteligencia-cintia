@@ -5,9 +5,11 @@ from openai import OpenAI
 st.title("Inteligencoa Artificial con IDESIE Bussiness School")
 st.write(
     "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. "
-    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+    
+    "Te enseñamos como funciona [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
+
+st.checkbox('Empieza aquí')
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
