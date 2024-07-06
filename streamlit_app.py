@@ -9,7 +9,7 @@ st.write(
     "Te enseñamos como funciona [sigue este tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
 
-st.data_editor('Empieza aquí')
+st.button ('Empieza aquí')
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
