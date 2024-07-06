@@ -6,10 +6,10 @@ st.title("Inteligencoa Artificial con IDESIE Bussiness School")
 st.write(
     "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. "
     
-    "Te enseñamos como funciona [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+    "Te enseñamos como funciona [sigue este tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
 
-st.checkbox('Empieza aquí')
+st.data_editor('Empieza aquí')
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
