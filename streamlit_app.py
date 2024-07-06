@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("Inteligencia Artificial con IDESIE Bussiness School")
 st.write(
-    "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. "
+    "Es una aplicacion para resumir y responder tus dudas de los videos de clases grabadas. " )
     
     "Te enseñamos como funciona [sigue este tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
 )
